@@ -1,0 +1,100 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.h-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  text-align: center;
+  padding: 20px;
+}
+.name1 {
+  color: #c39ea0;
+}
+
+.homecard {
+  /* background: #fff; */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.hello {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.name {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.Stack,
+.thought {
+  font-size: 1.7em;
+  margin: 10px 0;
+}
+.stack1 {
+  letter-spacing: 0.6rem;
+  color: rgb(152, 147, 147);
+}
+.btn-home {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  border-color: rgb(152, 147, 147);
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btn-home:hover {
+  font-size: 1.3em;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+@media (min-width: 768px) {
+  .h-container {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .homecard {
+    max-width: 50%;
+    margin: 0;
+  }
+
+  .image {
+    max-width: 80%;
+    height: 80%;
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .image {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  background-color: #c39ea0;
+}
+/* #c39ea0 */
+.nav-margin {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.navbar-link {
+  margin-left: 15%;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.navbar-link:hover {
+  font-size: 2rem;
+}
+.nav-link {
+  margin-right: 10px;
+}

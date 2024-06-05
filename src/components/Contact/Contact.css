@@ -1,0 +1,50 @@
+/* Custom CSS if needed */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.contact-card {
+  background-color: transparent;
+}
+.contact-item {
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+.card-header {
+  color: white;
+  font-weight: bold;
+}
+.card-body-c {
+  border: 2px solid rgb(67, 66, 66);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  background-color: rgba(49, 49, 49, 0.381);
+}
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #007bff;
+}
+.clickable-icon {
+  cursor: pointer;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.clickable-icon:hover {
+  color: #0056b3;
+}
+@media (max-width: 780px) {
+  .contact-container {
+    padding-top: 100%;
+  }
+}

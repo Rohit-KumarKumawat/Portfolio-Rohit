@@ -1,0 +1,9 @@
+.footer {
+  background: transparent;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+.footer-text {
+  font-size: 16px;
+}

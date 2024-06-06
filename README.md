@@ -1,4 +1,4 @@
-# ChatGPT Portfolio Readme
+
 
 Welcome to my portfolio! Here, I showcase my projects, technical skills, and a brief introduction about myself. Let's dive in!
 

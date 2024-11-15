@@ -23,7 +23,7 @@ const Home = () => {
         </p>
         <Button
           className="btn-home"
-          onClick={() => window.open("/images/resume.pdf", "_blank")}
+          onClick={() => window.open("/images/Rohit Kumar Kumawat.pdf", "_blank")}
         >
           Resume
         </Button>

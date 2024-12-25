@@ -1,16 +1,16 @@
 .a-container {
   color: white;
   height: 100%;
-  /* border: 2px solid white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .skill img {
-  height: 11%;
-  width: 10%;
+  height: 8%;
+  width: 7%;
   margin: 1% 0 0 2%;
 }
 img:hover {
@@ -21,8 +21,8 @@ img:hover {
   padding-top: 2%;
 }
 .skill {
-  /* border: 2px solid white; */
   width: 100%;
+  margin-top: 2%;
 }
 .about-content {
   width: 100%;
@@ -34,7 +34,7 @@ img:hover {
 .button1 {
   width: 20%;
   height: 7%;
-  margin-top: 2%;
+  margin-bottom: 2%;
   padding: 0.4%;
   font-size: 100%;
   border-color: orange;
@@ -43,7 +43,6 @@ img:hover {
   background-color: transparent;
   text-align: center;
   margin-bottom: 1rem;
-  /* margin-left: 35%; */
 }
 .button1:hover {
   transform: scale(1.1);
@@ -54,5 +53,13 @@ img:hover {
 .line {
   border: 1px solid rgba(114, 113, 113, 0.708);
   width: 100%;
-  /* box-shadow: 1px 1px 1px 1px white; */
+}
+.scroll-container {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .a-container {
+    margin-top: 9%;
+  }
 }

@@ -6,37 +6,35 @@ html {
   height: 100%;
   font-family: Arial, sans-serif;
 }
-
 .h-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-
   text-align: center;
   padding: 20px;
 }
 .name1 {
   color: #c39ea0;
 }
-
 .homecard {
   /* background: #fff; */
   color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
   margin: 20px 0;
 }
-
+.homecard2 {
+  width: 50%;
+}
 .hello {
   font-size: 2.5em;
   margin: 0;
 }
-
 .name {
   font-size: 2.5em;
   font-weight: bold;
@@ -69,11 +67,11 @@ html {
 }
 
 .image {
-  max-width: 100%;
+  width: 40%;
   height: auto;
+  margin-left: 40%;
   border-radius: 50%;
-  margin-top: 20px;
-  margin-left: 30%;
+  object-fit: cover;
 }
 @media (min-width: 768px) {
   .h-container {
@@ -96,5 +94,7 @@ html {
 @media (max-width: 768px) {
   .image {
     margin-left: 0;
+    width: 90%;
+    margin-bottom: 7%;
   }
 }

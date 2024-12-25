@@ -1,5 +1,29 @@
 const projects = [
   {
+    title: "SR Blogs",
+    image: "/images/SRimg.png",
+    description:
+      "SR Blogs is a fully responsive blogging platform developed using the MERN stack (MongoDB, Express.js, React, Node.js) with Tailwind CSS for styling. The platform focuses on enhancing user experience and accessibility, allowing users to post blogs, view them in a user-friendly layout, and engage with other content through commenting features.",
+    details:
+      "SR Blogs is a fully responsive blogging platform developed using the MERN stack (MongoDB, Express.js, React, Node.js) with Tailwind CSS for styling. The platform focuses on enhancing user experience and accessibility, allowing users to post blogs, view them in a user-friendly layout, and engage with other content through commenting features.",
+    technologies: [
+      "Frontend:React.js,React Router, Axios (for API communication),Tailwind CSS",
+      "Backend:Node.js,Express.js",
+      " Database:MongoDB",
+      "Other Tools:Git & GitHub (Version control),Postman (API testing), Responsive web design principles",
+    ],
+    contributionPoints: [
+      "Frontend Development: Built dynamic and interactive UI components with React.js.Integrated state management to handle user interactions seamlessly. Developed the blog posting and commenting features.",
+      "Backend Development:Created RESTful APIs using Node.js and Express.js for blog operations (CRUD). Ensured secure handling of data with robust API endpoint designs.",
+      "Database Management: Utilized MongoDB to store blog data efficiently.Optimized queries to enhance performance and ensure scalability.",
+      " Responsive Design: Leveraged Tailwind CSS to design a visually appealing, mobile-first user interface Ensured compatibility across various screen sizes and devices.",
+      "User Experience: Enhanced accessibility with intuitive navigation and a clean layout. Focused on providing a seamless experience for creating and interacting with blogs.",
+      "Version Control and Collaboration:Managed project versions using Git and GitHub, ensuring organized development.",
+    ],
+    githubLink: "https://github.com/Rohit-KumarKumawat/SR-Blogs",
+    demoVideo: "/video/SRvideo.mp4",
+  },
+  {
     title: "Flower App",
     image: "/images/flowerapp.png",
     description:
@@ -34,23 +58,6 @@ const projects = [
     ],
     githubLink: "https://github.com/Rohit-KumarKumawat/Weather-App",
     demoVideo: "/video/weather-video.mp4",
-  },
-  {
-    title: "Spotify Clone",
-    image: "/images/spotifyclone.png",
-    description:
-      "Responsive layouts, interactive playlist navigation, and playback controls in a music streaming application.",
-    details:
-      "The Spotify Clone is a web application designed to replicate the functionality and user interface of the popular music streaming platform, Spotify. Developed using HTML, CSS, and JavaScript, this project aims to provide users with an immersive music listening experience in a browser environment. By leveraging responsive design principles and implementing interactive features such as playlist navigation, seekbar functionality, and playback controls, the Spotify Clone delivers a seamless and engaging user experience across all devices.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    contributionPoints: [
-      "Responsive Layouts: The Spotify Clone prioritizes responsiveness, ensuring optimal viewing and interaction across a wide range of devices, including desktops, tablets, and smartphones. Adaptive layouts dynamically adjust to different screen sizes, maintaining consistency and usability.",
-      "Interactive Features: The application offers a suite of interactive features that mimic the functionality of the original Spotify platform. Users can navigate through playlists, control playback with play/pause, next song, and previous song options, and adjust playback progress using the seekbar.",
-      "Seekbar Functionality: Users can precisely control the playback progress of songs using the seekbar feature. The seekbar provides visual feedback on the current playback position, enabling users to skip forward or backward within a track.",
-      "Playback Controls: The application includes comprehensive playback controls for managing music playback. Users can play, pause, skip to the next or previous song, and adjust volume levels to customize their listening experience.",
-    ],
-    githubLink: "https://github.com/Rohit-KumarKumawat/Spotify-clone",
-    demoVideo: "/video/spotify-video.mp4",
   },
 ];
 export default projects;

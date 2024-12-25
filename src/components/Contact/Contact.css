@@ -43,8 +43,23 @@ html {
 .clickable-icon:hover {
   color: #0056b3;
 }
+@media (max-width: 1000px) {
+  .contact-container {
+    padding-top: 90%;
+  }
+}
 @media (max-width: 780px) {
   .contact-container {
-    padding-top: 100%;
+    padding-top: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .contact-container {
+    padding-top: 90%;
+  }
+}
+@media (max-height: 670px) {
+  .contact-container {
+    padding-top: 50%;
   }
 }

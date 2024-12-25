@@ -13,7 +13,7 @@ const About = () => {
 
         <div className="about-content">
           <p>
-            Hello! I'm Rohit Kumar Kumawat, a passionate front-end developer
+            Hello! I'm Rohit Kumar Kumawat, a passionate full-stack developer
             based in Jaipur, Rajasthan. Currently pursuing a Bachelor of
             Technology in Computer Science at the Global Institute of
             Technology, I am dedicated to creating visually appealing and
@@ -34,7 +34,7 @@ const About = () => {
         </div>
         <button
           className="button1"
-          onClick={() => window.open("/images/resume.pdf", "_blank")}
+          onClick={() => window.open("/images/Rohit-Resumefinal.pdf", "_blank")}
         >
           Resume
         </button>
@@ -62,6 +62,18 @@ const About = () => {
           </span>
           <span>
             <img src="/images/vscode.png" alt="" />
+          </span>
+          <span>
+            <img src="/images/nodejs.png" alt="" />
+          </span>
+          <span>
+            <img src="/images/mongodb.png" alt="" />
+          </span>
+          <span>
+            <img src="/images/cpp.png" alt="" />
+          </span>
+          <span>
+            <img src="/images/mysql.png" alt="" />
           </span>
         </div>
       </div>

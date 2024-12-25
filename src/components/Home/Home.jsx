@@ -17,13 +17,13 @@ const Home = () => {
         <h1 className="hello">Hello,👋</h1>
         <span className="name">I am </span>
         <span className="name name1">Rohit Kumawat</span>
-        <p className="Stack stack1">Front End Developer</p>
+        <p className="Stack stack1">Aspiring Full Stack Developer</p>
         <p className="thought">
           I am very excited to develop new ideas and things.
         </p>
         <Button
           className="btn-home"
-          onClick={() => window.open("/images/resume.pdf", "_blank")}
+          onClick={() => window.open("/images/Rohit-Resumefinal.pdf", "_blank")}
         >
           Resume
         </Button>
@@ -34,8 +34,8 @@ const Home = () => {
           Contact me
         </Button>
       </div>
-      <div>
-        <img src="/images/myimage.png" alt="" className="image" />
+      <div className="homecard2">
+        <img src="/images/myimage.jpeg" alt="" className="image" height="1%" />
       </div>
     </div>
   );

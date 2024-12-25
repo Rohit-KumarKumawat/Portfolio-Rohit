@@ -72,14 +72,10 @@ const Project = () => {
         variant="secondary"
         href="https://github.com/Rohit-KumarKumawat?tab=repositories"
         target="__blank"
-        // style={{
-        //   width: "100%",
-        //   background: "transparent",
-        // }}
       >
         View More Projects...
       </Button>
-      {/* Modal for project details */}
+
       <Modal show={showDetails} onHide={handleCloseDetails}>
         {currentProjectIndex !== null && (
           <>
@@ -90,7 +86,14 @@ const Project = () => {
               <p>{projects[currentProjectIndex].details}</p>
               <p>
                 Technologies:{" "}
-                {projects[currentProjectIndex].technologies.join(", ")}
+                <ul>
+                  {projects[currentProjectIndex].technologies.map(
+                    (point, index) => (
+                      <li key={index}>{point}</li>
+                    )
+                  )}
+                </ul>
+                {/* {projects[currentProjectIndex].technologies.join(", ")} */}
               </p>
               <p>Key Contribution Points:</p>
               <ul>

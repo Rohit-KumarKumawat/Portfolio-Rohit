@@ -23,7 +23,11 @@ const Home = () => {
         </p>
         <Button
           className="btn-home"
+<<<<<<< HEAD
           onClick={() => window.open("/images/Rohit-Resumefinal.pdf", "_blank")}
+=======
+          onClick={() => window.open("/images/Rohit Kumar Kumawat.pdf", "_blank")}
+>>>>>>> 5026231188395c6c1549570a9da076590434d37a
         >
           Resume
         </Button>
